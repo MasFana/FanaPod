@@ -17,6 +17,33 @@ A terminal-based user interface (TUI) for Podman, built with Rust and Ratatui. I
     - Sorting by name, status, CPU, or memory.
     - Fast and responsive interface.
 
+## Preview
+
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│ Podman TUI Dashboard                                  [sorted by: Name]    │
+├────────────────────────────────────────────────────────────────────────────┤
+│ NAME            STATUS          CPU%    MEM%      ┌────────────────────────┐
+│ ● postgres      Up 2 hours      0.5%    124.2MB   │ Resource Summary       │
+│ ● redis         Up 2 hours      0.1%    12.5MB    │ CPU 0.6%  MEM 136.7MB  │
+│ ○ nginx         Exited (0)      --      --        │ Containers: 3/2/1      │
+│                                                   │ NetIO ↓1.2KB ↑0.5KB    │
+│                                                   │ ────────────────────── │
+│                                                   │ CPU 12.4% MEM 4.2GB    │
+│                                                   │ Net ↓45.2KB/s ↑12.1KB/s│
+│                                                   └────────────────────────┘
+│                                                   ┌────────────────────────┐
+│                                                   │ Container Details      │
+│                                                   │ Name: postgres         │
+│                                                   │ ID: a1b2c3d4e5f6       │
+│                                                   │ Image: postgres:15     │
+│                                                   │ Status: Up 2 hours     │
+│                                                   └────────────────────────┘
+├────────────────────────────────────────────────────────────────────────────┤
+│ [j/k]Nav [s]Start [x]Stop [d]Delete [e]Exec [E]Root [r]Refresh [q]Quit     │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Prerequisites
 
 - **Podman**: Ensure Podman is installed and the `podman` command is available in your PATH.
