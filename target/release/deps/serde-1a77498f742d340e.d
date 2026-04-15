@@ -1,0 +1,14 @@
+/home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/deps/serde-1a77498f742d340e.d: /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/build/serde-2bd0a7e82b312b43/out/private.rs
+
+/home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/deps/libserde-1a77498f742d340e.rlib: /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/build/serde-2bd0a7e82b312b43/out/private.rs
+
+/home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/deps/libserde-1a77498f742d340e.rmeta: /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/build/serde-2bd0a7e82b312b43/out/private.rs
+
+/home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/masfana/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/build/serde-2bd0a7e82b312b43/out/private.rs:
+
+# env-dep:OUT_DIR=/home/masfana/Documents/Projects/PRAKTIKUM/PODMAN-PS/podman-tui/target/release/build/serde-2bd0a7e82b312b43/out

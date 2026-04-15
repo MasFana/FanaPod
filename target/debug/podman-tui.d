@@ -1,0 +1,1 @@
+/workspace/PRAKTIKUM/PODMAN-PS/target/debug/podman-tui: /workspace/PRAKTIKUM/PODMAN-PS/src/app.rs /workspace/PRAKTIKUM/PODMAN-PS/src/main.rs /workspace/PRAKTIKUM/PODMAN-PS/src/podman.rs /workspace/PRAKTIKUM/PODMAN-PS/src/shell.rs /workspace/PRAKTIKUM/PODMAN-PS/src/ui.rs
