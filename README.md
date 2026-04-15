@@ -19,6 +19,7 @@ A terminal-based user interface (TUI) for Podman, built with Rust and Ratatui. I
 
 ## Preview
 
+### Container Dashboard
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ Podman TUI Dashboard                                  [sorted by: Name]    │
@@ -41,6 +42,45 @@ A terminal-based user interface (TUI) for Podman, built with Rust and Ratatui. I
 │                                                   └────────────────────────┘
 ├────────────────────────────────────────────────────────────────────────────┤
 │ [j/k]Nav [s]Start [x]Stop [d]Delete [e]Exec [E]Root [r]Refresh [q]Quit     │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Shell Manager (Variables)
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│  Dashboard  |  Shell  [1:Vars | 2:Paths]        Shell: [BASH]  zsh  fish   │
+├──────────────────────────────────────────────────┬─────────────────────────┤
+│ NAME            VALUE                  ENABLED   │ Config Preview          │
+│ DATABASE_URL    postgres://localhost   ✓         │ File: ~/.bashrc         │
+│ API_KEY         ********************   ✓         │ Syntax: export          │
+│ DEBUG           true                   ✗         │                         │
+│                                                  │ # Environment Variables │
+│                                                  │ export DATABASE_URL=""  │
+│                                                  │ export API_KEY="..."    │
+│                                                  │                         │
+│                                                  │ # PATH                  │
+│                                                  │ export PATH="/usr/bin"  │
+└──────────────────────────────────────────────────┴─────────────────────────┘
+│ [j/k]Nav [a]Add [d]Del [e]Edit [t]Toggle [s]Save [Tab]Tab [?]Help [q]Quit  │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Shell Manager (Paths)
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│  Dashboard  |  Shell  [1:Vars | 2:Paths]        Shell: [BASH]  zsh  fish   │
+├──────────────────────────────────────────────────┬─────────────────────────┤
+│ PATH                         LABEL     ENABLED   │ Config Preview          │
+│ /usr/local/bin               -         ✓         │ File: ~/.bashrc         │
+│ ~/.cargo/bin                 rust      ✓         │ Syntax: export          │
+│ /opt/podman/bin              podman    ✗         │                         │
+│                                                  │ # Environment Variables │
+│                                                  │ export DATABASE_URL=".."│
+│                                                  │                         │
+│                                                  │ # PATH                  │
+│                                                  │ export PATH="/usr/bin:."│
+└──────────────────────────────────────────────────┴─────────────────────────┘
+│ [j/k]Nav [a]Add [d]Del [e]Edit [t]Toggle [s]Save [Tab]Tab [?]Help [q]Quit  │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
